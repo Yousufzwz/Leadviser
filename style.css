@@ -1,0 +1,56 @@
+.container{
+    margin-bottom: 100px;
+}
+.navbar-logo{
+    height: 40px;
+    width: auto;
+}
+.all-bg{
+    background-color: #fceae8;
+    border-radius: 8px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.contact{
+    height: 300px;
+}
+.contact h5{
+    color: dimgrey;
+}
+footer{
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .carousel-item {
+        padding: 10px 20px;
+    }
+
+    .navbar-logo {
+        height: 30px;
+    }
+
+    .carousel-item h1, .carousel-item p {
+        text-align: center;
+    }
+
+    .carousel-item .col-md-7, .carousel-item .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .carousel-item .col-md-5 {
+        margin-top: 20px;
+    }
+}
